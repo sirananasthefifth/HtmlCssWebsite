@@ -1,0 +1,100 @@
+/*Font*/
+@font-face {
+    font-family: 'lemon_milkbold';
+    src: url('../fonts/LEMONMILK-BOLD.woff2') format('woff2'),
+         url('../fonts/lemonmilk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milklight_italic';
+    src: url('/fonts/lemonmilk-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milkbold_italic';
+    src: url('../fonts/LEMONMILK-BOLDITALIC.woff2') format('woff2'),
+         url('../fonts/lemonmilk-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milkmedium_italic';
+    src: url('../fonts/lemonmilk-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milkregular_italic';
+    src: url('../fonts/lemonmilk-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milklight';
+    src: url('../fonts/lemonmilk-light-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milkmedium';
+    src: url('../fonts/lemonmilk-medium-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('../fonts/LEMONMILK-REGULAR.woff2') format('woff2'),
+         url('../fonts/lemonmilk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+.lemon-milk-bold{
+    font-family: 'lemon_milkbold';}
+.lemon-milk-medium{
+    font-family: 'lemon_milkmedium';}
+.lemon-milk-medium{
+    font-family: 'lemon_milkmedium_italic';}
+.lemon-milk-italic{
+    font-family: 'lemon_milklight_italic';}
+.lemon-milk{
+    font-family: 'lemon_milkregular';}
+.lemon-milk-italic{
+    font-family: 'lemon_milkregular_italic';}
+.lemon-milk-light{
+    font-family: 'lemon-milklight';}
+
+/*Regular CSS*/
+
+body {
+    background-color: #121212;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.nav-bar-link {
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'lemon_milkregular';
+}
+
+.nav-bar-link:hover {
+    color: rgb(227, 227, 227);
+}
+
+#active-nav {
+    color: #FF6060;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'lemon_milkbold';
+
+}
